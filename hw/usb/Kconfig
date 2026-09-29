@@ -150,3 +150,8 @@ config USB_CHIPIDEA
 config ASPEED_UDC
     bool
     select USB
+
+config USB_VCAM
+    bool
+    default y
+    depends on USB
